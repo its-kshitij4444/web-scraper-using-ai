@@ -22,7 +22,7 @@ Run the application locally:<br>
 python app.py
 <hr>
 
-Usage
+Usage <br>
 Load the site locally on http://127.0.0.1:5000.
 Use the scraping tool to fetch DOM content.<br>
 Click the Parse button to process the content using the AI model.<br>
