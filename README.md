@@ -10,24 +10,18 @@ Local storage of parsed content for reuse.
 <hr>
 Installation
 Clone the repository:<br>
-
-bash
-Copy code
 git clone https://github.com/your-username/your-repo-name.git
+
 Navigate to the project directory:<br>
-
-bash
-Copy code
 cd your-repo-name
+
 Install the required dependencies:<br>
-
-Copy code
 pip install -r requirements.txt
-Run the application locally:<br>
 
-Copy code
+Run the application locally:<br>
 python app.py
 <hr>
+
 Usage
 Load the site locally on http://127.0.0.1:5000.
 Use the scraping tool to fetch DOM content.<br>
