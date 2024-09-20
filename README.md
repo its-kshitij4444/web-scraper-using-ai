@@ -33,8 +33,11 @@ Note: Not for deployment purposes, only to be used locally.<br>
 Libraries Used <br>
 Flask: Backend framework to handle API requests.<br>
 Flask-CORS: Manages cross-origin requests.<br>
-Selenium: Web scraping functionality.<br>
-BeautifulSoup: Parsing HTML and XML documents.<br>
-Ollama: AI language model for parsing content.<br>
 LangChain: Helps in managing the language models.<br>
+LangChain Ollama: Integration with Ollama models.<br>
+Selenium: Web scraping functionality.<br>
+BeautifulSoup4: Parsing HTML and XML documents.<br>
+lxml: XML and HTML parsing library.<br>
+html5lib: HTML parsing library.<br>
+python-dotenv: Manage environment variables securely.<br>
 <hr>
