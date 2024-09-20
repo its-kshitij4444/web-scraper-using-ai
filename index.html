@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Web Scraper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Web Scraper using AI</h1>
+    <div id="yourinput">
+        <input type="text" id="urlInput" placeholder="Enter website URL" />
+        <br>
+        <button id="scrapeButton">Scrape The Website!</button>
+    </div>
+
+    <div id="statusMessage"></div>
+    
+    <div id="result"></div>
+
+    <button id="expandButton">Show DOM Content</button>
+
+    <div id="parsearea">
+        <label for="parseDescription">Describe what you want to parse:</label>
+        <textarea id="parseDescription" placeholder="Enter your description here"></textarea>
+        <button id="parseButton">Parse Content</button>
+    </div>
+
+    <div id="parsedContent"></div>
+<script src="scr.js"></script>
+</body>
+</html>

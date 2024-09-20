@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+body {
+    background-image: url('infinity-tech.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Centers the image */
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#result {
+    display: none;
+    white-space: pre-wrap;
+    font-family: "Press Start 2P",monospace; 
+    border: 1px solid wheat ;
+    backdrop-filter: blur(5px);
+    color: #fff; 
+    overflow: scroll;
+    height: 40%;
+    position: relative;
+    top: 25%;
+}
+#result::-webkit-scrollbar{
+    width: 0px;
+}
+
+#yourinput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+#yourinput input,
+#yourinput button{
+    padding: 10px;
+    color: aqua;
+    font-family: "Press Start 2P",monospace;
+    background-color: rgba(0,0,0,0);
+    border-radius: 20px;
+    border: 1px solid wheat;
+    backdrop-filter: blur(5px);
+}
+
+#yourinput input::placeholder{
+    color: aqua;
+    font-family: "Press Start 2P",monospace;
+}
+
+/* button:hover{
+    
+} */
+
+#statusMessage {
+    border: 1px solid wheat;
+    font-family: "Press Start 2P",monospace;
+    font-size: 13px;
+    position: absolute;
+    left: 2%;
+    top: 27.5%;
+    border-radius: 20px;
+    color: aqua;
+    backdrop-filter: blur(5px);
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    font-family: "Press Start 2P", monospace;
+    font-size: 40px;
+    color: aqua;
+}
+
+#parsearea {
+    font-family: "Press Start 2P",monospace;
+    height: 10%;
+    color: aqua;
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+#expandButton {
+    position: absolute;
+    top: 35%;
+    left: 45.75%;
+}
+
+#parsedContent {
+    display: flex;
+    height: 10%;
+    width: 48vw;
+    font-family: "Press Start 2P",monospace;
+    color: aqua;
+    border: 1px solid white;
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+    backdrop-filter: blur(5px);
+    overflow: scroll;
+}
+#parsedContent::-webkit-scrollbar {
+    width: 0px;
+}
+
+#result, #parsed-content {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea{
+    resize: none;
+}
+
+textarea::-webkit-scrollbar{
+    width: 0px;
+}
+
+button{
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+flask
+flask_cors
+langchain 
+langchain_ollama
+selenium
+beautifulsoup4
+lxml 
+html5lib
+python-dotenv
