@@ -30,7 +30,7 @@ The output will be displayed in the designated text area.
 Note: Not for deployment purposes, only to be used locally.<br>
 
 <hr>
-Libraries Used
+Libraries Used <br>
 Flask: Backend framework to handle API requests.<br>
 Flask-CORS: Manages cross-origin requests.<br>
 Selenium: Web scraping functionality.<br>
