@@ -41,3 +41,7 @@ lxml: XML and HTML parsing library.<br>
 html5lib: HTML parsing library.<br>
 python-dotenv: Manage environment variables securely.<br>
 <hr>
+
+### Credits
+- The scraping logic and backend parts were adapted from a tutorial by <strong>Tech with Tim</strong> https://www.youtube.com/watch?v=Oo8-nEuDBkk
+
